@@ -4,7 +4,7 @@
 
 TCHAR szClassName[] = TEXT("Window");
 
-BOOL RandomString(TCHAR* szText, int nSize)
+BOOL RandomString(LPWSTR szText, int nSize)
 {
 	static WCHAR szChar[] = L"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	HCRYPTPROV prov;
